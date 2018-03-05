@@ -1,0 +1,39 @@
+html {
+    font-size: 1rem;
+}
+
+.header-row {
+    background-color: mediumseagreen;
+    color: #fff;
+    padding-top: .8em;
+    padding-bottom: .8em;
+}
+
+.measurement-value h2 {
+    font-size: 7em;
+}
+
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
